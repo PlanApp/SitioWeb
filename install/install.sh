@@ -5,4 +5,9 @@ sudo apt-get -y install python-django
 #python-mysqldb #MySQL
 sudo apt-get -y install postgresql python-psycopg2
 sudo apt-get -y install python-django
-easy_install Django
+sudo mkdir /srv/www
+#GIT CLONE
+sudo ln -s $(pwd)/planapp.cl/ /srv/www/
+##CREAR UN PROYECTO CON DJANGO
+#django-admin startproject planapp
+
