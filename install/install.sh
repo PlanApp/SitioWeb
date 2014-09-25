@@ -5,6 +5,8 @@ sudo apt-get -y install python-django
 #python-mysqldb #MySQL
 sudo apt-get -y install postgresql python-psycopg2
 sudo apt-get -y install python-django
+sudo apt-get -y install python-pip
+pip install django-twitter-bootstrap==3.2.0
 #sudo mkdir /srv/www
 #GIT CLONE
 #sudo ln -s $(pwd)/planapp.cl/ /srv/www/
