@@ -22,7 +22,13 @@ SECRET_KEY = '1#k!x39eiv&_b40+w=n5nk%5=(jjq86t4!))3(c)a(g6!b5t1d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-TEMPLATE_DEBUG = True
+
+#Template definition
+#TEMPLATE_DEBUG = True
+
+TEMPLATE_DIRS = (
+   os.path.join(os.path.dirname(__file__),'../web/templates'),
+)
 
 ALLOWED_HOSTS = []
 
@@ -36,6 +42,9 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'home',
+    'planapp',
+	
 )
 
 MIDDLEWARE_CLASSES = (
