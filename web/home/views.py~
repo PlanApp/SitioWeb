@@ -22,7 +22,4 @@ def get_css4(request):
     return render_to_response('bootstrap/css/bootstrap-theme.min.css')
 
 def get_js(request):
-    return render_to_response('bootstrap/js/bootstrap.js')
-
-def get_js2(request):
-    return render_to_response('bootstrap/js/bootstrap.min.js')
+    return render_to_response('bootstrap/css/bootstrap-theme.min.css')

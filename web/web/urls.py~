@@ -12,9 +12,6 @@ urlpatterns = patterns('',
     url(r'^min_css/', 'home.views.get_css'),
     url(r'^min2_css/', 'home.views.get_css2'),
     url(r'^min3_css/', 'home.views.get_css3'),
-    url(r'^min4_css/', 'home.views.get_css4'),
-
-    url(r'^js/', 'home.views.get_js'),
-    url(r'^js2/', 'home.views.get_js2')
+    url(r'^min4_css/', 'home.views.get_css4')
 
 )
