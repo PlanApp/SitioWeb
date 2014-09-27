@@ -12,14 +12,6 @@ https://docs.djangoproject.com/en/1.6/ref/settings/
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
-#BootStrap
-# For apps outside of your project, it's simpler to import them to find their root folders
-#import twitter_bootstrap
-#bootstrap_less = os.path.join(os.path.dirname(twitter_bootstrap.__file__), 'static', 'less')
-
-#PIPELINE_LESS_ARGUMENTS = u'--include-path={}'.format(os.pathsep.join([bootstrap_less, my_app_less]))
-
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
@@ -32,10 +24,10 @@ DEBUG = True
 
 #Template definition
 #TEMPLATE_DEBUG = True
-
 TEMPLATE_DIRS = (
    os.path.join(os.path.dirname(__file__),'../web/templates'),
 )
+
 
 ALLOWED_HOSTS = []
 
@@ -95,6 +87,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
-
+#STATIC_ROOT = 'BASE_DIR/'
+#STATIC_ROOT = '/var/www/web/web/static'
 STATIC_URL = '/static/'
 
