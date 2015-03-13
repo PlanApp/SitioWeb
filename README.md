@@ -1,5 +1,9 @@
-#PlanApp Sitio web:
-Sitio web construido utilizando Django MVC + Postgres BD
+#PlanApp Sitio web (ALFA):
+Sitio web construido utilizando Django MVC + Postgres BD.
+
+Idea para orgnizar salidas y juntas con tus amigos.
+
+
 
 ver : [planapp.cl](http://www.panapp.cl)
 
